@@ -11,9 +11,9 @@
 
 Для запуска приложения необходимо установить интерпретатор языка Python версии 3.x и выполнить следующие команды в командной строке:
 
-$ git clone https://github.com/9AlexeyEmelyanov/GeekBrainsBlockResults.git
-$ cd GeekBrainsBlockResults
-$ python main.py
+- $ git clone https://github.com/9AlexeyEmelyanov/GeekBrainsBlockResults.git
+- $ cd GeekBrainsBlockResults
+- $ python main.py
 
 
 ## Использование приложения
