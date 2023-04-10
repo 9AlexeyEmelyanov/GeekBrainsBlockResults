@@ -1,11 +1,8 @@
-first_list = ["Hello", "2", "world", ":-)"]
-second_list = ["1234", "1567", "-2", "computer science"]
-third_list = ["Russia", "Denmark", "Kazan"]
-# Создаем пустой список
+
 
 
 def formingNewLine(lst : list):
-    # Инициализируем пустой массив
+    # Создаем пустой список
     new_arr = []
     # Проходим по всем элементам исходного массива
     for i in range(len(lst)):
@@ -17,7 +14,11 @@ def formingNewLine(lst : list):
 
 
 def main():
-    # Выводим полученный массив
+    # Тестируем метод
+    first_list = ["Hello", "2", "world", ":-)"]
+    second_list = ["1234", "1567", "-2", "computer science"]
+    third_list = ["Russia", "Denmark", "Kazan"]
+
     print("Новый массив: ", formingNewLine(first_list))
     print("Новый массив: ", formingNewLine(second_list))
     print("Новый массив: ", formingNewLine(third_list))
